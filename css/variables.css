@@ -1,0 +1,74 @@
+/*
+  Design tokens — EN Contábil
+  Cores extraídas por amostragem de pixels do logotipo oficial (fonte:
+  print do perfil @encontabil__contabilidade enviado pelo cliente).
+  Ver README.md para o processo de extração e os valores medidos.
+*/
+
+:root {
+  /* ---- Marca (medidas por pixel, ver README) ---- */
+  --brand-primary: #055493;        /* azul do logo — medido */
+  --brand-primary-dark: #033862;   /* variação mais escura, hover/pressed */
+  --brand-primary-darker: #02213A; /* quase-preto azulado, seções escuras/rodapé */
+  --brand-primary-tint: #E7EFF6;   /* tinta muito clara do azul, para superfícies */
+
+  --brand-accent: #F2CC16;         /* dourado do logo — medido */
+  --brand-accent-dark: #C0A10B;    /* dourado escurecido, texto acessível sobre claro */
+
+  /* ---- Neutros / superfícies ---- */
+  --brand-background: #FFFFFF;
+  --brand-surface: #F5F8FB;
+  --brand-surface-alt: #EDF2F6;
+  --brand-text: #12232E;
+  --brand-text-soft: #33454F;
+  --brand-muted: #5B6B77;
+  --brand-border: #E1E7EC;
+
+  /* ---- Semânticas (uso funcional de UI, não identidade de marca) ---- */
+  --state-success: #1E8E5A;
+  --state-warning: #C97A0A;
+  --state-error: #C23B3B;
+
+  /* ---- Tipografia ---- */
+  --font-display: 'Alex Brush', 'Segoe Script', cursive;         /* eco do monograma manuscrito do logo */
+  --font-heading: 'Poppins', 'Segoe UI', system-ui, sans-serif;  /* eco do "CONTABILIDADE" caixa-alta condensado */
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-quote: 'Playfair Display', Georgia, serif;              /* citações/depoimentos, tom editorial */
+
+  --lh-tight: 1.15;
+  --lh-heading: 1.25;
+  --lh-body: 1.6;
+
+  /* ---- Espaçamento (escala 4px) ---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  /* ---- Bordas / raios ---- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+  --border-width: 1px;
+
+  /* ---- Sombras (discretas — evitar excesso, ver instruções do briefing) ---- */
+  --shadow-sm: 0 1px 2px rgba(2, 33, 58, 0.06);
+  --shadow-md: 0 8px 24px rgba(2, 33, 58, 0.10);
+  --shadow-lg: 0 16px 40px rgba(2, 33, 58, 0.16);
+
+  /* ---- Transições ---- */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 260ms;
+  --duration-slow: 480ms;
+
+  /* ---- Container ---- */
+  --container-max: 1180px;
+}
