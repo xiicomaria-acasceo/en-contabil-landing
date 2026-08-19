@@ -16,8 +16,8 @@ window.ENC_CONFIG = {
     name: "EN Contábil",
     fullName: "ENContábil — Contabilidade e Gestão Empresarial",
     // Posicionamento geral: contabilidade e gestão empresarial para
-    // pequenos negócios, com o MEI como destaque forte — não como público
-    // exclusivo.
+    // empresas de todos os portes, com o MEI como destaque forte — não
+    // como público exclusivo.
     tagline: "Contabilidade e Gestão Empresarial · Destaque em MEI e Simples Nacional",
     coverage: "Atuação em todo o Brasil · Online & Presencial",
     instagramHandle: "@encontabil__contabilidade",
@@ -36,16 +36,16 @@ window.ENC_CONFIG = {
     eyebrow: "Sobre a EN Contábil",
     heading: "Contabilidade e gestão pensadas para o seu negócio",
     lede:
-      "A EN Contábil cuida da contabilidade e da gestão empresarial de pequenos negócios, com atendimento online para todo o Brasil e presencial em Oriximiná, no Pará — com destaque especial para quem é Microempreendedor Individual (MEI).",
+      "A EN Contábil cuida da contabilidade e da gestão empresarial de empresas de todos os portes, com atendimento online para todo o Brasil e presencial em Oriximiná, no Pará — com destaque especial para quem é Microempreendedor Individual (MEI).",
     body:
-      "O trabalho nasce da rotina real de quem cuida da contabilidade de pequenos negócios: resolver guias atrasadas, explicar prazos de forma simples e evitar que problemas com a Receita Federal cheguem a virar dor de cabeça para quem só quer empreender.",
+      "O trabalho nasce da rotina real de quem cuida da contabilidade de empresas de todos os tamanhos: resolver guias atrasadas, explicar prazos de forma simples e evitar que problemas com a Receita Federal cheguem a virar dor de cabeça para quem só quer empreender.",
   },
 
   audience: {
     eyebrow: "Para quem é",
-    heading: "Feito para pequenos negócios — com destaque para o MEI",
+    heading: "Feito para empresas de todos os portes — com destaque para o MEI",
     description:
-      "Atendemos empresas do Simples Nacional que precisam de contabilidade e gestão financeira no dia a dia, com atenção especial ao microempreendedor individual (MEI) que precisa regularizar o CNPJ, colocar guias em dia ou entender a própria contabilidade sem juridiquês.",
+      "Atendemos empresas de todos os portes — do Microempreendedor Individual (MEI) a negócios maiores no Simples Nacional — que precisam de contabilidade e gestão financeira no dia a dia, colocar guias em dia ou entender a própria contabilidade sem juridiquês.",
   },
 
   ctaBanner: {
@@ -93,14 +93,14 @@ window.ENC_CONFIG = {
       icon: "gestao",
       name: "Contabilidade e Gestão Empresarial",
       description:
-        "Organização contábil e financeira para pequenos negócios, com orientação de gestão no dia a dia.",
+        "Organização contábil e financeira para empresas de todos os portes, com orientação de gestão no dia a dia.",
       benefit: "Mais clareza sobre a saúde financeira do seu negócio, com quem entende do assunto.",
     },
     {
       icon: "simples",
       name: "Simples Nacional",
       description:
-        "Apuração e acompanhamento mensal das obrigações do Simples Nacional para pequenas empresas.",
+        "Apuração e acompanhamento mensal das obrigações do Simples Nacional para empresas de todos os tamanhos.",
       benefit: "Tranquilidade para focar no seu negócio enquanto a parte fiscal fica em dia.",
     },
     {
@@ -144,8 +144,8 @@ window.ENC_CONFIG = {
 
   faq: [
     {
-      q: "A EN Contábil atende só MEI ou qualquer pequeno negócio?",
-      a: "Atendemos pequenos negócios em geral no Simples Nacional, com destaque especial para o Microempreendedor Individual (MEI).",
+      q: "A EN Contábil atende só MEI ou empresas de outros portes também?",
+      a: "Atendemos empresas de todos os portes no Simples Nacional, com destaque especial para o Microempreendedor Individual (MEI).",
     },
     {
       q: "Vocês atendem qualquer estado do Brasil?",
